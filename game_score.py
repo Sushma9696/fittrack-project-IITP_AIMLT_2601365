@@ -4,9 +4,9 @@ def game():
   score=int(input("Total score achieved:"))
   average_score=score/number_of_games
   print(f"\nPlayer: {player_name}")
-  print(f"Games Played: {number_of_games}")
-  print(f"Total Score: {score}")
-  print(f"Average Score: {average_score}")
+  print(f"\nGames Played: {number_of_games}")
+  print(f"\nTotal Score: {score}")
+  print(f"\nAverage Score: {average_score}")
   
 
 game()
